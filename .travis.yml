@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+deploy:
+  provider: npm
+  email: serveradmin@octoblu.com
+  api_key:
+    secure: Y+Z9d2OC9jVC9d8GdIEIjrFnxW5Xqrm3v4jde2TzcvS1hQJAcwFSStyf1Yg6Atx9rZX6TU/AyUyy4enFsTvDtcbpWiBfGpXozMe4aoGf6PVNLHNrgX330HEfUSyIsXXM7ae8PA4zoXoy9MfrnBPeYQSTdzm398YylahN0XMF8iYvoheHAGan1FZ+RFsCHO2tVjrB1x+XaLk/K2p8QQnxU8bESvTr0FMkHhARiYXKoqkzwDlj+sZZhebjnU0o7ZObjeeedW1qiS0+5wIj3YmpSalL8rK4Ku6bWi/L6ONb4WgRmm3pmDcsAHdcwxG3/ab6Tbnam1WAWYsG4HhHmWnxxgF2cNkJhJhLBK/JCLtcyO4Ma4RW/RmvevujxNr4TQagSQJMis1rs9/J3HoPh85uLFsvUm5DkA47aRms29aIEHU90KAFi1aKDrnqePejRaN4EiYrdIU6NXiHZpJVvRfvOlM5KMsDoa0Mbqlok7hVrYsyAwBFMNwCSoOEaOA2Ffb6MgeqFR0V5TWKKXZEfdEgq+Mohzyy3TA7QQm7MiVeqkG7vt2+x6ilNuRjULdqrQsUBSfkwRa0+OI/bZBvn2Nj4yO6rz3mPok+CX8by6qViAGZQxlpsKxd+eKWR89njcaLYFpzyooF+XKqycz4eqrhUZ0m+3DxJJNWq2NmaJcq3ek=
+  on:
+    tags: true
+    branches: true
+    repo: octoblu/nanocyte-component-clear-data
