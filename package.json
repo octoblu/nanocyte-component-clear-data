@@ -1,6 +1,6 @@
 {
   "name": "nanocyte-component-clear-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nanocyte component to clear data",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,6 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
-    "nanocyte-component-return-value": "^1.0.0"
+    "nanocyte-component-return-value": "^1.0.2"
   }
 }
