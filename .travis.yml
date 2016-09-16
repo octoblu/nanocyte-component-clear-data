@@ -17,3 +17,5 @@ deploy:
     tags: true
     branches: true
     repo: octoblu/nanocyte-component-clear-data
+after_success:
+- bash <(curl -s https://codecov.io/bash)
